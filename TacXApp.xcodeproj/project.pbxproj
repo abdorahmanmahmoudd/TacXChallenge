@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282A0F8825177D1E00E53390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A0F8725177D1E00E53390 /* AppDelegate.swift */; };
+		282A0F8A25177D1E00E53390 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A0F8925177D1E00E53390 /* SceneDelegate.swift */; };
+		282A0F8C25177D1E00E53390 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A0F8B25177D1E00E53390 /* ViewController.swift */; };
+		282A0F8F25177D1E00E53390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282A0F8D25177D1E00E53390 /* Main.storyboard */; };
+		282A0F9125177D2100E53390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282A0F9025177D2100E53390 /* Assets.xcassets */; };
+		282A0F9425177D2100E53390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282A0F9225177D2100E53390 /* LaunchScreen.storyboard */; };
+		282A0F9F25177D2100E53390 /* TacXAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A0F9E25177D2100E53390 /* TacXAppTests.swift */; };
+		282A0FAA25177D2100E53390 /* TacXAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A0FA925177D2100E53390 /* TacXAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		282A0F9B25177D2100E53390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 282A0F7C25177D1E00E53390 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 282A0F8325177D1E00E53390;
+			remoteInfo = TacXApp;
+		};
+		282A0FA625177D2100E53390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 282A0F7C25177D1E00E53390 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 282A0F8325177D1E00E53390;
+			remoteInfo = TacXApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		282A0F8425177D1E00E53390 /* TacXApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacXApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		282A0F8725177D1E00E53390 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		282A0F8925177D1E00E53390 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		282A0F8B25177D1E00E53390 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		282A0F8E25177D1E00E53390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		282A0F9025177D2100E53390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		282A0F9325177D2100E53390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		282A0F9525177D2100E53390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282A0F9A25177D2100E53390 /* TacXAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacXAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		282A0F9E25177D2100E53390 /* TacXAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacXAppTests.swift; sourceTree = "<group>"; };
+		282A0FA025177D2100E53390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282A0FA525177D2100E53390 /* TacXAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacXAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		282A0FA925177D2100E53390 /* TacXAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacXAppUITests.swift; sourceTree = "<group>"; };
+		282A0FAB25177D2100E53390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		282A0F8125177D1E00E53390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282A0F9725177D2100E53390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282A0FA225177D2100E53390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282A0F7B25177D1E00E53390 = {
+			isa = PBXGroup;
+			children = (
+				282A0F8625177D1E00E53390 /* TacXApp */,
+				282A0F9D25177D2100E53390 /* TacXAppTests */,
+				282A0FA825177D2100E53390 /* TacXAppUITests */,
+				282A0F8525177D1E00E53390 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		282A0F8525177D1E00E53390 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				282A0F8425177D1E00E53390 /* TacXApp.app */,
+				282A0F9A25177D2100E53390 /* TacXAppTests.xctest */,
+				282A0FA525177D2100E53390 /* TacXAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		282A0F8625177D1E00E53390 /* TacXApp */ = {
+			isa = PBXGroup;
+			children = (
+				282A0F8725177D1E00E53390 /* AppDelegate.swift */,
+				282A0F8925177D1E00E53390 /* SceneDelegate.swift */,
+				282A0F8B25177D1E00E53390 /* ViewController.swift */,
+				282A0F8D25177D1E00E53390 /* Main.storyboard */,
+				282A0F9025177D2100E53390 /* Assets.xcassets */,
+				282A0F9225177D2100E53390 /* LaunchScreen.storyboard */,
+				282A0F9525177D2100E53390 /* Info.plist */,
+			);
+			path = TacXApp;
+			sourceTree = "<group>";
+		};
+		282A0F9D25177D2100E53390 /* TacXAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				282A0F9E25177D2100E53390 /* TacXAppTests.swift */,
+				282A0FA025177D2100E53390 /* Info.plist */,
+			);
+			path = TacXAppTests;
+			sourceTree = "<group>";
+		};
+		282A0FA825177D2100E53390 /* TacXAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				282A0FA925177D2100E53390 /* TacXAppUITests.swift */,
+				282A0FAB25177D2100E53390 /* Info.plist */,
+			);
+			path = TacXAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		282A0F8325177D1E00E53390 /* TacXApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282A0FAE25177D2100E53390 /* Build configuration list for PBXNativeTarget "TacXApp" */;
+			buildPhases = (
+				282A0F8025177D1E00E53390 /* Sources */,
+				282A0F8125177D1E00E53390 /* Frameworks */,
+				282A0F8225177D1E00E53390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TacXApp;
+			productName = TacXApp;
+			productReference = 282A0F8425177D1E00E53390 /* TacXApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		282A0F9925177D2100E53390 /* TacXAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282A0FB125177D2100E53390 /* Build configuration list for PBXNativeTarget "TacXAppTests" */;
+			buildPhases = (
+				282A0F9625177D2100E53390 /* Sources */,
+				282A0F9725177D2100E53390 /* Frameworks */,
+				282A0F9825177D2100E53390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				282A0F9C25177D2100E53390 /* PBXTargetDependency */,
+			);
+			name = TacXAppTests;
+			productName = TacXAppTests;
+			productReference = 282A0F9A25177D2100E53390 /* TacXAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		282A0FA425177D2100E53390 /* TacXAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282A0FB425177D2100E53390 /* Build configuration list for PBXNativeTarget "TacXAppUITests" */;
+			buildPhases = (
+				282A0FA125177D2100E53390 /* Sources */,
+				282A0FA225177D2100E53390 /* Frameworks */,
+				282A0FA325177D2100E53390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				282A0FA725177D2100E53390 /* PBXTargetDependency */,
+			);
+			name = TacXAppUITests;
+			productName = TacXAppUITests;
+			productReference = 282A0FA525177D2100E53390 /* TacXAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		282A0F7C25177D1E00E53390 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					282A0F8325177D1E00E53390 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					282A0F9925177D2100E53390 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 282A0F8325177D1E00E53390;
+					};
+					282A0FA425177D2100E53390 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 282A0F8325177D1E00E53390;
+					};
+				};
+			};
+			buildConfigurationList = 282A0F7F25177D1E00E53390 /* Build configuration list for PBXProject "TacXApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 282A0F7B25177D1E00E53390;
+			productRefGroup = 282A0F8525177D1E00E53390 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				282A0F8325177D1E00E53390 /* TacXApp */,
+				282A0F9925177D2100E53390 /* TacXAppTests */,
+				282A0FA425177D2100E53390 /* TacXAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		282A0F8225177D1E00E53390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282A0F9425177D2100E53390 /* LaunchScreen.storyboard in Resources */,
+				282A0F9125177D2100E53390 /* Assets.xcassets in Resources */,
+				282A0F8F25177D1E00E53390 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282A0F9825177D2100E53390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282A0FA325177D2100E53390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		282A0F8025177D1E00E53390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282A0F8C25177D1E00E53390 /* ViewController.swift in Sources */,
+				282A0F8825177D1E00E53390 /* AppDelegate.swift in Sources */,
+				282A0F8A25177D1E00E53390 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282A0F9625177D2100E53390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282A0F9F25177D2100E53390 /* TacXAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282A0FA125177D2100E53390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282A0FAA25177D2100E53390 /* TacXAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		282A0F9C25177D2100E53390 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 282A0F8325177D1E00E53390 /* TacXApp */;
+			targetProxy = 282A0F9B25177D2100E53390 /* PBXContainerItemProxy */;
+		};
+		282A0FA725177D2100E53390 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 282A0F8325177D1E00E53390 /* TacXApp */;
+			targetProxy = 282A0FA625177D2100E53390 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		282A0F8D25177D1E00E53390 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282A0F8E25177D1E00E53390 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		282A0F9225177D2100E53390 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282A0F9325177D2100E53390 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		282A0FAC25177D2100E53390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		282A0FAD25177D2100E53390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		282A0FAF25177D2100E53390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8BQ65NA88;
+				INFOPLIST_FILE = TacXApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdo.TacXApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		282A0FB025177D2100E53390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8BQ65NA88;
+				INFOPLIST_FILE = TacXApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdo.TacXApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		282A0FB225177D2100E53390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8BQ65NA88;
+				INFOPLIST_FILE = TacXAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdo.TacXAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TacXApp.app/TacXApp";
+			};
+			name = Debug;
+		};
+		282A0FB325177D2100E53390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8BQ65NA88;
+				INFOPLIST_FILE = TacXAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdo.TacXAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TacXApp.app/TacXApp";
+			};
+			name = Release;
+		};
+		282A0FB525177D2100E53390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8BQ65NA88;
+				INFOPLIST_FILE = TacXAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdo.TacXAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TacXApp;
+			};
+			name = Debug;
+		};
+		282A0FB625177D2100E53390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8BQ65NA88;
+				INFOPLIST_FILE = TacXAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdo.TacXAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TacXApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		282A0F7F25177D1E00E53390 /* Build configuration list for PBXProject "TacXApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282A0FAC25177D2100E53390 /* Debug */,
+				282A0FAD25177D2100E53390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282A0FAE25177D2100E53390 /* Build configuration list for PBXNativeTarget "TacXApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282A0FAF25177D2100E53390 /* Debug */,
+				282A0FB025177D2100E53390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282A0FB125177D2100E53390 /* Build configuration list for PBXNativeTarget "TacXAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282A0FB225177D2100E53390 /* Debug */,
+				282A0FB325177D2100E53390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282A0FB425177D2100E53390 /* Build configuration list for PBXNativeTarget "TacXAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282A0FB525177D2100E53390 /* Debug */,
+				282A0FB625177D2100E53390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 282A0F7C25177D1E00E53390 /* Project object */;
+}
