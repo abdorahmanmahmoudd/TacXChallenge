@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  TacXApp
+
+  Created by Abdelrahman Ali on 23/09/2020.
+  
+*/
+// MARK: General
+"GENERAL_ERROR_DESCRIPTION" = "Countered a problem!";
+"RIJKS_LIST_TITLE" = "Rijks Arts";
+"GENERAL_EMPTY_STATE_ERROR" = "No results";
+"ERROR_VIEW_BUTTON_TITLE" = "Try again";
+

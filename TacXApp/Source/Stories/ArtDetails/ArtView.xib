@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fYI-h8-xZ9" customClass="ArtView" customModule="TacXApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="485"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gx8-mn-5z9">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="N4E-ww-gKq"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="long title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vfs-Gq-qlo">
+                    <rect key="frame" x="16" y="266" width="343" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Maker" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wkD-sz-4eF">
+                    <rect key="frame" x="16" y="294.5" width="37.5" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="date" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vd5-pD-ffh">
+                    <rect key="frame" x="16" y="314.5" width="27" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgo-Ax-rlF">
+                    <rect key="frame" x="16" y="338.5" width="343" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cmb-7V-k73">
+                    <rect key="frame" x="16" y="391" width="343" height="45"/>
+                    <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="zXr-56-kvy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Go to art"/>
+                    <connections>
+                        <action selector="gotoArtButtonTapped:" destination="fYI-h8-xZ9" eventType="touchUpInside" id="zxT-II-MV6"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="vd5-pD-ffh" firstAttribute="top" secondItem="wkD-sz-4eF" secondAttribute="bottom" constant="4" id="0a3-T2-zMC"/>
+                <constraint firstItem="wkD-sz-4eF" firstAttribute="leading" secondItem="Dup-n3-rrd" secondAttribute="leading" constant="16" id="8u9-TL-gss"/>
+                <constraint firstItem="Dup-n3-rrd" firstAttribute="trailing" secondItem="bgo-Ax-rlF" secondAttribute="trailing" constant="16" id="9Ta-1X-ud4"/>
+                <constraint firstItem="Dup-n3-rrd" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Cmb-7V-k73" secondAttribute="bottom" constant="32" id="Ch1-R4-f5V"/>
+                <constraint firstItem="Gx8-mn-5z9" firstAttribute="leading" secondItem="fYI-h8-xZ9" secondAttribute="leading" id="DGN-lz-vcA"/>
+                <constraint firstItem="bgo-Ax-rlF" firstAttribute="top" secondItem="vd5-pD-ffh" secondAttribute="bottom" constant="8" id="GrA-Pq-llU"/>
+                <constraint firstItem="Vfs-Gq-qlo" firstAttribute="top" secondItem="Gx8-mn-5z9" secondAttribute="bottom" constant="16" id="HO2-mw-ceu"/>
+                <constraint firstItem="Dup-n3-rrd" firstAttribute="trailing" secondItem="Vfs-Gq-qlo" secondAttribute="trailing" constant="16" id="JrG-uA-9gZ"/>
+                <constraint firstItem="Cmb-7V-k73" firstAttribute="top" secondItem="bgo-Ax-rlF" secondAttribute="bottom" constant="32" id="KIj-Ad-hZa"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wkD-sz-4eF" secondAttribute="trailing" constant="16" id="MtY-RC-rrH"/>
+                <constraint firstAttribute="trailing" secondItem="Gx8-mn-5z9" secondAttribute="trailing" id="Ptm-Qw-elg"/>
+                <constraint firstItem="vd5-pD-ffh" firstAttribute="leading" secondItem="fYI-h8-xZ9" secondAttribute="leading" constant="16" id="QYe-7t-m9V"/>
+                <constraint firstItem="Cmb-7V-k73" firstAttribute="leading" secondItem="Dup-n3-rrd" secondAttribute="leading" constant="16" id="RQp-Wo-0Sq"/>
+                <constraint firstItem="wkD-sz-4eF" firstAttribute="top" secondItem="Vfs-Gq-qlo" secondAttribute="bottom" constant="8" id="gr4-Ow-pG3"/>
+                <constraint firstItem="bgo-Ax-rlF" firstAttribute="leading" secondItem="Dup-n3-rrd" secondAttribute="leading" constant="16" id="iDd-VE-ZAn"/>
+                <constraint firstItem="Dup-n3-rrd" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vd5-pD-ffh" secondAttribute="trailing" constant="16" id="nAs-0H-EfB"/>
+                <constraint firstItem="Gx8-mn-5z9" firstAttribute="top" secondItem="fYI-h8-xZ9" secondAttribute="top" id="oBN-yL-LBh"/>
+                <constraint firstItem="Dup-n3-rrd" firstAttribute="trailing" secondItem="Cmb-7V-k73" secondAttribute="trailing" constant="16" id="oZC-y6-BLh"/>
+                <constraint firstItem="Vfs-Gq-qlo" firstAttribute="leading" secondItem="fYI-h8-xZ9" secondAttribute="leading" constant="16" id="wvz-dc-Da5"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Dup-n3-rrd"/>
+            <connections>
+                <outlet property="artDescriptionLabel" destination="bgo-Ax-rlF" id="WTI-8D-7MK"/>
+                <outlet property="artImageView" destination="Gx8-mn-5z9" id="cGR-8q-FNZ"/>
+                <outlet property="artMakerLabel" destination="wkD-sz-4eF" id="qqX-2d-aY8"/>
+                <outlet property="artPresentingDateLabel" destination="vd5-pD-ffh" id="Uyw-lb-O1L"/>
+                <outlet property="titleLabel" destination="Vfs-Gq-qlo" id="mSA-lL-YCr"/>
+            </connections>
+            <point key="canvasLocation" x="131.15942028985509" y="42.522321428571423"/>
+        </view>
+    </objects>
+</document>
